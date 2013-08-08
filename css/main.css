@@ -224,7 +224,7 @@ strong {
 .wrapper .cv {
   overflow: hidden;
   width: 840px;
-  padding: 20px 0 20px 30px;
+  padding: 14px 0 10px 30px;
   border-top: 15px solid #fdb020;
   border-bottom: 15px solid #fdb020;
   background: transparent url("../images/cv_bg.png");
@@ -350,7 +350,7 @@ strong {
 @media print {
   .wrapper .cv {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
   }
   .wrapper .cv .personal h1 {
     background: #fff;
