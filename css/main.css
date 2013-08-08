@@ -346,37 +346,30 @@ strong {
 }
 /* style overrides for print */
 @media print {
-  a,
-  .section h3,
-  .section dt {
-    background: none;
-    color: #000;
-  }
-  h1 {
-    background: #fff;
-    color: #333;
-  }
-  ul.social-links {
-    display: none;
-  }
-  .section dd p {
-    color: #000;
-  }
-  .cv {
+  .wrapper .cv {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .cv dl {
-    padding-top: 40px;
+  .wrapper .cv .personal h1 {
+    background: #fff;
+    color: #333;
   }
-  .legal-notice {
-    display: block;
-  }
-  .section h4 a,
-  .section h5 a {
+  .wrapper .cv .contact .social-links {
     display: none;
   }
-  .secondary-col .section dd li .metadata {
+  .wrapper .cv .contact dl {
+    padding-top: 60px;
+  }
+  .wrapper .cv-details .details .secondary-col .section dd li .metadata {
     color: #000;
+  }
+  .wrapper .cv-details .details .section h3,
+  .wrapper .cv-details .details .section dt,
+  .wrapper .cv-details .details .section p {
+    background: none;
+    color: #000;
+  }
+  .wrapper .cv-details .legal-notice {
+    display: block;
   }
 }
