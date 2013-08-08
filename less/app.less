@@ -155,14 +155,16 @@ strong {
 				.section {
 					dd {
 						padding: 0 0 16px 20px;
-						li {
-							padding: 5px 0 0 20px;
-							background: transparent url("../images/point.png") no-repeat 0 9px;
-							text-align: justify;
-							-webkit-print-color-adjust:exact;
-							.metadata {
-								color: #595959;
-								font-size: .9em;
+						ul {
+							list-style-image: url("../images/point.png");
+							padding-left: 15px;
+							li {
+								padding: 5px 0 0 5px;
+								text-align: justify;
+								.metadata {
+									color: #595959;
+									font-size: .9em;
+								}
 							}
 						}
 					}

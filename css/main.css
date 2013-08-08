@@ -301,13 +301,15 @@ strong {
 .wrapper .cv-details .details .secondary-col .section dd {
   padding: 0 0 16px 20px;
 }
-.wrapper .cv-details .details .secondary-col .section dd li {
-  padding: 5px 0 0 20px;
-  background: transparent url("../images/point.png") no-repeat 0 9px;
-  text-align: justify;
-  -webkit-print-color-adjust: exact;
+.wrapper .cv-details .details .secondary-col .section dd ul {
+  list-style-image: url("../images/point.png");
+  padding-left: 15px;
 }
-.wrapper .cv-details .details .secondary-col .section dd li .metadata {
+.wrapper .cv-details .details .secondary-col .section dd ul li {
+  padding: 5px 0 0 5px;
+  text-align: justify;
+}
+.wrapper .cv-details .details .secondary-col .section dd ul li .metadata {
   color: #595959;
   font-size: .9em;
 }
